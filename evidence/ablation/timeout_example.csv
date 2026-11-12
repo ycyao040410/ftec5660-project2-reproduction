@@ -1,0 +1,6 @@
+study_seed,episode_id,step,fault_onset,cusum_ratio,ewma_ratio,cusum_first_alarm,ewma_first_alarm
+2,real-timeout-007,0,False,0.0,0.0,False,False
+2,real-timeout-007,1,False,0.0,0.0,False,False
+2,real-timeout-007,2,True,0.0,0.0,False,False
+2,real-timeout-007,3,False,0.4546874671688139,0.6092933682075304,False,False
+2,real-timeout-007,4,False,0.9375455809299835,1.0426883546408616,False,True

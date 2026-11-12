@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "upstream_commit": "00c0673adc54f74be84babbcb63f67e460f54e41",
+  "dataset": "real_research7b",
+  "trace_checksums_verified": 291,
+  "run_prefixes": [
+    "ftec_recheck_1",
+    "ftec_recheck_2"
+  ],
+  "rows_per_run": {
+    "benchmark": 2,
+    "per_class": 16,
+    "diagnosis": 171,
+    "length_confound": 2
+  },
+  "independently_checked_alarm_rows": 390
+}

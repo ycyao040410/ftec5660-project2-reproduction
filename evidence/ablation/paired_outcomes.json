@@ -1,0 +1,87 @@
+{
+  "dataset": "real_research7b",
+  "upstream_commit": "00c0673adc54f74be84babbcb63f67e460f54e41",
+  "pairs": [
+    {
+      "study_seed": 0,
+      "gains": [],
+      "losses": [],
+      "ewma_earlier": 1,
+      "same_step": 63,
+      "ewma_later": 0,
+      "same_healthy_false_alarm_ids": true
+    },
+    {
+      "study_seed": 1,
+      "gains": [],
+      "losses": [],
+      "ewma_earlier": 7,
+      "same_step": 56,
+      "ewma_later": 0,
+      "same_healthy_false_alarm_ids": true
+    },
+    {
+      "study_seed": 2,
+      "gains": [
+        {
+          "episode_id": "real-timeout-007",
+          "fault_class": "timeout"
+        },
+        {
+          "episode_id": "real-tool_cascade-009",
+          "fault_class": "tool_cascade"
+        },
+        {
+          "episode_id": "real-tool_cascade-018",
+          "fault_class": "tool_cascade"
+        }
+      ],
+      "losses": [
+        {
+          "episode_id": "real-rate_limit-000",
+          "fault_class": "rate_limit"
+        }
+      ],
+      "ewma_earlier": 3,
+      "same_step": 54,
+      "ewma_later": 0,
+      "same_healthy_false_alarm_ids": true
+    },
+    {
+      "study_seed": 3,
+      "gains": [
+        {
+          "episode_id": "real-tool_cascade-001",
+          "fault_class": "tool_cascade"
+        },
+        {
+          "episode_id": "real-tool_cascade-021",
+          "fault_class": "tool_cascade"
+        }
+      ],
+      "losses": [],
+      "ewma_earlier": 2,
+      "same_step": 59,
+      "ewma_later": 0,
+      "same_healthy_false_alarm_ids": true
+    },
+    {
+      "study_seed": 4,
+      "gains": [
+        {
+          "episode_id": "real-tool_cascade-001",
+          "fault_class": "tool_cascade"
+        },
+        {
+          "episode_id": "real-tool_cascade-021",
+          "fault_class": "tool_cascade"
+        }
+      ],
+      "losses": [],
+      "ewma_earlier": 2,
+      "same_step": 61,
+      "ewma_later": 0,
+      "same_healthy_false_alarm_ids": true
+    }
+  ]
+}

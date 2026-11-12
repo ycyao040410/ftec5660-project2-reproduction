@@ -1,0 +1,17 @@
+monitor,failure_class,detection_rate,median_delay,mean_lead_all
+delta_mahalanobis,context_corruption,0.0,,0.0
+delta_mahalanobis,goal_drift,0.2727272727272727,2.0,0.5454545454545454
+delta_mahalanobis,looping,1.0,0.0,2.9545454545454546
+delta_mahalanobis,malformed_json,0.0,,0.0
+delta_mahalanobis,rate_limit,0.9473684210526316,1.0,1.6842105263157894
+delta_mahalanobis,timeout,0.5,1.0,0.95
+delta_mahalanobis,tool_cascade,0.6363636363636364,2.0,0.6363636363636364
+delta_mahalanobis,wrong_document,0.0454545454545454,4.0,0.0
+esn_cusum_max,context_corruption,0.0454545454545454,3.0,0.0
+esn_cusum_max,goal_drift,0.0454545454545454,5.0,0.0
+esn_cusum_max,looping,1.0,2.0,0.9545454545454546
+esn_cusum_max,malformed_json,0.0454545454545454,5.0,0.0
+esn_cusum_max,rate_limit,0.7368421052631579,3.0,0.3157894736842105
+esn_cusum_max,timeout,0.5,2.0,0.4
+esn_cusum_max,tool_cascade,0.5454545454545454,3.0,0.1363636363636363
+esn_cusum_max,wrong_document,0.1363636363636363,5.0,0.0

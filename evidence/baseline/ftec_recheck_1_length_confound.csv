@@ -1,0 +1,3 @@
+monitor,healthy_len_score_spearman,raw_auroc,length_matched_auroc,n_healthy,n_injected,n_matched
+delta_mahalanobis,0.5897678246195884,0.8484405458089668,0.9965277777777778,24,171,48
+esn_cusum_max,0.0884651736929382,0.7765594541910331,0.9965277777777776,24,171,48
