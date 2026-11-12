@@ -1,0 +1,13 @@
+/upstream/
+/runs/
+/.venv/
+/.venv-*/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
